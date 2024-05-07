@@ -1,4 +1,4 @@
-package main
+package vpc
 
 import (
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/ec2"
@@ -6,7 +6,7 @@ import (
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi/config"
 )
 
-func main() {
+func vpcModule() {
 	pulumi.Run(func(ctx *pulumi.Context) error {
 		cfg := config.New(ctx, "")
 
