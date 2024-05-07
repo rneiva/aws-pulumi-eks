@@ -1,0 +1,7 @@
+name: aws-go-pulumi-eks
+runtime: go
+description: EKS - Go Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-go
